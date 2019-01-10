@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2D012F21E61F5E00629844 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2D012E21E61F5E00629844 /* Model.swift */; };
 		AC3819FF21BEECC300E54D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3819FE21BEECC300E54D71 /* AppDelegate.swift */; };
 		AC381A0121BEECC300E54D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC381A0021BEECC300E54D71 /* ViewController.swift */; };
 		AC381A0421BEECC300E54D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC381A0221BEECC300E54D71 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC2D012E21E61F5E00629844 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AC3819FB21BEECC300E54D71 /* myCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3819FE21BEECC300E54D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC381A0021BEECC300E54D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +56,9 @@
 		AC3819FD21BEECC300E54D71 /* myCalc */ = {
 			isa = PBXGroup;
 			children = (
-				AC3819FE21BEECC300E54D71 /* AppDelegate.swift */,
+				AC2D012E21E61F5E00629844 /* Model.swift */,
 				AC381A0021BEECC300E54D71 /* ViewController.swift */,
+				AC3819FE21BEECC300E54D71 /* AppDelegate.swift */,
 				AC381A0221BEECC300E54D71 /* Main.storyboard */,
 				AC381A0521BEECC600E54D71 /* Assets.xcassets */,
 				AC381A0721BEECC600E54D71 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2D012F21E61F5E00629844 /* Model.swift in Sources */,
 				AC381A0121BEECC300E54D71 /* ViewController.swift in Sources */,
 				AC3819FF21BEECC300E54D71 /* AppDelegate.swift in Sources */,
 			);
